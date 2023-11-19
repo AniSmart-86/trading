@@ -1,7 +1,7 @@
 <html lang="en">
 
 
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
     <meta charset="UTF-8">
@@ -12,7 +12,7 @@
         content="Harness the power of AI and automate your day trading activities with  Tradai-Solution AI Trader." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="index.html" />
-    <meta property="og:image" content="Opengraph_Quopi.jpg" />
+    <meta property="og:image" content="Opengraph_ Tradai-Solution.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
 
@@ -91,7 +91,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-image: url("/platform/auth-bg.jpg");
+            background-image: url("platform/auth-bg.jpg");
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -205,7 +205,7 @@
         <div class="container">
             <div class="row justify-content-lg-between justify-content-end align-items-center mb-3 mob-return">
                 <div class="col-auto content-hide">
-                    <a href="index.html"><img src="/logo/qp-logo-pc.png" alt="qp-logo" width="150"></a>
+                    <a href="index.html"><img src="logo/qp-logo-pc.png" alt="qp-logo" width="150"></a>
                 </div>
                 <div class="col-auto mob-hide mh1">
                     <a href="index.html"
@@ -234,7 +234,7 @@
                             <div class="form-holder px-0">
                                 <div class="form-content">
                                     <div class="form-items text-center">
-                                        <img class="mb-5 qp-shadow-1" src="/logo/qp-logo-auth.png" width="70"
+                                        <img class="mb-5 qp-shadow-1" src="logo/qp-logo-auth.png" width="70"
                                             alt="qp-logo">
                                         <form action="https:// Quopi.ai/login" method="post" id="signup"
                                             class="requires-validation" novalidate>
@@ -256,7 +256,7 @@
                                                         class="form-control bg-dark-qp border-gray-qp text-white fw-light text-center py-3 value rounded-3"
                                                         id="password" style="padding-right:50px;padding-left: 50px">
                                                     <img class="toggle-password" id="svgImage"
-                                                        src="/platform/eye.svg" alt="show">
+                                                        src="platform/eye.svg" alt="show">
                                                     <div class="valid-feedback"></div>
                                                     <div class="invalid-feedback">Password field cannot be blank!</div>
                                                 </div>
@@ -361,14 +361,14 @@
             var svgImage = $("#svgImage");
             var currentSrc = svgImage.attr("src");
 
-            if (currentSrc === "img/platform/eye.svg") {
-                svgImage.attr("src", "/platform/eye-slash.svg");
+            if (currentSrc === "platform/eye.svg") {
+                svgImage.attr("src", "platform/eye-slash.svg");
                 svgImage.attr("alt", "hide");
             } else {
-                svgImage.attr("src", "/platform/eye.svg");
+                svgImage.attr("src", "platform/eye.svg");
                 svgImage.attr("alt", "show");
             }
-            // $("#svgImage").attr("src", "/img/platform/eye-slash.svg");
+            // $("#svgImage").attr("src", "/platform/eye-slash.svg");
             // $("#svgImage").attr("alt", "hide");
             $(this).toggleClass('active');
             let pw = $(this).parent().find('.value');
